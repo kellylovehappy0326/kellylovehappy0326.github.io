@@ -1,71 +1,73 @@
-ul li {
-    float: left;
-    display: block;
-    background-color: #9A5927;
-    width: 200px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 14pt;
-}
-
-ul li a {
-    color: #F9F59A;
-    text-align: none;
-}
-
-ul li ul {
-    display: none;
-}
-
-ul li:hover ul {
-    display: block;
-}
-
-ul li:hover {
-    background-color: #ba7947;
-}
-
-ul li ul li:hover {
-    background-color: #F9F59A;
-}
-
-ul li ul li:hover a {
-    background-color: #9A5927;
-}
-
-
-/*.Content {
+ body {
+     background-color: pink;
+ }
+ 
+ ul li {
+     float: left;
+     display: block;
+     background-color: #9A5927;
+     width: 200px;
+     text-align: center;
+     line-height: 50px;
+     font-size: 14pt;
+ }
+ 
+ ul li a {
+     color: #F9F59A;
+     text-align: none;
+ }
+ 
+ ul li ul {
+     display: none;
+ }
+ 
+ ul li:hover ul {
+     display: block;
+ }
+ 
+ ul li:hover {
+     background-color: #ba7947;
+ }
+ 
+ ul li ul li:hover {
+     background-color: #F9F59A;
+ }
+ 
+ ul li ul li:hover a {
+     background-color: #9A5927;
+ }
+ /*.Content {
     width: 800px;
     height: 500px;
     display: inline-block;
 }*/
-
-#good1 {
-    width: 200px;
-    float: left;
-    margin-right: 30px;
-    margin-top: 20px;
-    border: dashed;
-    border-color: yellow;
-    text-align: center;
-}
-
-#bad1 {
-    width: 200px;
-    float: left;
-    margin-right: 30px;
-    margin-top: 20px;
-    border: dashed;
-    border-color: yellow;
-    text-align: center;
-}
-
-#feature1 {
-    width: 200px;
-    float: left;
-    margin-right: 30px;
-    margin-top: 20px;
-    border: dashed;
-    border-color: yellow;
-    text-align: center;
-}
+ 
+ #good1 {
+     width: 200px;
+     float: left;
+     margin-right: 30px;
+     margin-top: 20px;
+     border: dashed;
+     border-color: yellow;
+     text-align: center;
+ }
+ 
+ #bad1 {
+     width: 200px;
+     float: left;
+     margin-right: 30px;
+     margin-top: 20px;
+     border: dashed;
+     border-color: yellow;
+     text-align: center;
+ }
+ 
+ #feature1 {
+     width: 200px;
+     float: left;
+     margin-right: 30px;
+     margin-top: 20px;
+     border: dashed;
+     border-color: yellow;
+     text-align: center;
+ }
