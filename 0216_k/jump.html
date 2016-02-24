@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jump for Joy</title>
+    <link rel="stylesheet" href="css/jump.css">
+</head>
+<body>
+<header>跳躍大拍賣</header>
+<div id="main">
+    <div class="guess_box"><img src="img/jump1.jpg" alt="image A"></div>
+    <div class="guess_box"><img src="img/jump2.jpg" alt="image B"></div>
+    <div class="guess_box"><img src="img/jump3.jpg" alt="image C"></div>
+    <div class="guess_box"><img src="img/jump4.jpg" alt="image D"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+</body>
+<script>
+    $(document).ready(function ()
+    {
+        $(".guess_box").click(function ()
+        {
+            $(".guess_box p").remove();
+            var discount = Math.floor(Math.random() * 5) + 5;
+            var discount_msg = "<p>你的折扣是" + discount + "%</p>";
+//            alert(discount_msg);
+            $(this).append(discount_msg);
+            $(this).unbind('click');
+        });
+
+    });
+</script>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>毛小孩網站</title>
+    <link rel="stylesheet" type="text/css" href="css/dog1.css">
+</head>
+<body>
+<div id="clickMe">我要看毛小孩</div>
+<div id="picframe">
+    <img src="img/furry_friend.jpg">
+</div>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#clickMe").click(function() {
+            $("img").fadeIn(5000);
+            $("#picframe").slideToggle("slow");
+        });
+    });
+</script>
+</body>
+</html>
